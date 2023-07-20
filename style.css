@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    background-color: #ebe8e8;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    height: 70px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #fbf8f84f, #d4d1d177);
+    box-shadow: 5px 5px 10px #cac8c8, -5px -5px 10px #ffffff;
+}
+
+div.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+button {
+    border: none;
+}
+
+div.container button{
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    margin-inline: 5px;
+    border-radius: 40px;
+    padding: 10px;
+    background: linear-gradient(145deg, #fbf8f84f, #d4d1d177);
+    box-shadow: 5px 5px 10px #cac8c8, -5px -5px 10px #ffffff;
+}
+
+button#inicio.color,
+button#mensajes.color,
+button#like.color,
+button#perfil.color{
+     background: #ebe8e8;
+     box-shadow: inset 9px 9px 18px #d6d3d3,
+         inset -9px -9px 18px #fffdfd;
+ }
+
+
+
