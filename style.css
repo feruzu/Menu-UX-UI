@@ -51,6 +51,15 @@ div.container button{
     box-shadow: 5px 5px 10px #cac8c8, -5px -5px 10px #ffffff;
 }
 
+button#inicio,
+button#mensajes,
+button#like,
+button#perfil {
+    fill: #a1a1a1;
+}
+
+
+
 button#inicio.color,
 button#mensajes.color,
 button#like.color,
@@ -58,7 +67,6 @@ button#perfil.color{
      background: #ebe8e8;
      box-shadow: inset 9px 9px 18px #d6d3d3,
          inset -9px -9px 18px #fffdfd;
+         fill: #3ce495!important;
  }
-
-
 
